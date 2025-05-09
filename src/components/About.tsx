@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import pigImg from "../assets/efpigs.jpg";
 
 const About: React.FC = () => {
   return (
@@ -49,8 +50,8 @@ const About: React.FC = () => {
           <div className="order-1 lg:order-2">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1493962853295-0fd70327578a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                alt="Farmer in Field" 
+                src={pigImg} 
+                alt="Pigs on the farm" 
                 className="rounded-lg shadow-lg w-full h-[400px] object-cover"
               />
               <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg w-32 h-32 flex flex-col items-center justify-center border-4 border-farm-cream">

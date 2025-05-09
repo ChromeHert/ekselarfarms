@@ -1,18 +1,16 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import BgImg from "../assets/efmainc.jpg"; // Example image, replace with your own
 
 const HeroSection: React.FC = () => {
   return (
     <section id="home" className="relative h-[90vh] flex items-center">
-      {/* Hero Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0" 
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')", 
-          backgroundPosition: "center 30%",
-        }}
-      >
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+          backgroundImage: `url(${BgImg})`,
+          filter: "brightness(0.5)"
+        }}>
       </div>
 
       {/* Hero Content */}
@@ -28,7 +26,7 @@ const HeroSection: React.FC = () => {
             <Button className="btn-primary bg-farm-green text-white px-8 py-3 text-lg">
               Explore Our Products
             </Button>
-            <Button variant="outline" className="bg-transparent border-2 border-white text-white px-8 py-3 text-lg hover:bg-white hover:text-farm-green transition-all">
+            <Button variant="outline" className="bg-transparent border-2 border-white text-white px-8 py-3 text-lg hover:bg-yellow-300 hover:text-farm-green transition-all">
               Learn More
             </Button>
           </div>

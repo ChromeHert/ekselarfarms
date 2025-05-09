@@ -8,12 +8,12 @@ import {
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-green-300 text-white pt-16 pb-8">
+    <footer className="bg-green-300 text-white pt-16 pb-8" id='products'>
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <h3 className="text-xl font-bold mb-4">Ekselar Integrated Farms</h3>
-            <p className="text-gray-200 mb-4">
+            <p className="text-gray-800 mb-4">
               Providing fresh, organic produce and ethically raised livestock since 2015. From our farm to your table.
             </p>
             <div className="flex space-x-4">
@@ -35,28 +35,29 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-gray-200 hover:text-farm-yellow transition-colors">Home</a></li>
-              <li><a href="#about" className="text-gray-200 hover:text-farm-yellow transition-colors">About Us</a></li>
-              <li><a href="#products" className="text-gray-200 hover:text-farm-yellow transition-colors">Our Products</a></li>
-              <li><a href="#contact" className="text-gray-200 hover:text-farm-yellow transition-colors">Contact</a></li>
-              <li><a href="#" className="text-gray-200 hover:text-yellow-300 transition-colors">Farm Tours</a></li>
+              <li><a href="#home" className="text-gray-800 hover:text-farm-yellow transition-colors">Home</a></li>
+              <li><a href="#about" className="text-gray-800 hover:text-farm-yellow transition-colors">About Us</a></li>
+              <li><a href="#products" className="text-gray-800 hover:text-farm-yellow transition-colors">Our Products</a></li>
+              <li><a href="#contact" className="text-gray-800 hover:text-farm-yellow transition-colors">Contact</a></li>
+              <li><a href="#" className="text-gray-800 hover:text-yellow-300 transition-colors">Farm Tours</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-xl font-bold mb-4">Our Products</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-200 hover:text-yellow-300 transition-colors">Seasonal Vegetables</a></li>
-              <li><a href="#" className="text-gray-200 hover:text-yellow-300 transition-colors">Free-Range Eggs</a></li>
-              <li><a href="#" className="text-gray-200 hover:text-yellow-300 transition-colors">Grass-Fed Beef</a></li>
-              <li><a href="#" className="text-gray-200 hover:text-yellow-300 transition-colors">Organic Honey</a></li>
-              <li><a href="#" className="text-gray-200 hover:text-yellow-300 transition-colors">Artisanal Cheese</a></li>
+              <li><a href="#" className="text-gray-800 hover:text-yellow-300 transition-colors">Catfish (Live & Smoked)</a></li>
+              <li><a href="#" className="text-gray-800 hover:text-yellow-300 transition-colors">Poultry Birds (Noiler)</a></li>
+              <li><a href="#" className="text-gray-800 hover:text-yellow-300 transition-colors">Goats</a></li>
+              <li><a href="#" className="text-gray-800 hover:text-yellow-300 transition-colors">Pigs</a></li>
+              <li><a href="#" className="text-gray-800 hover:text-yellow-300 transition-colors">Vegetables/Pepper</a></li>
+              <li><a href="#" className="text-gray-800 hover:text-yellow-300 transition-colors">Cassava/Maize</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-xl font-bold mb-4">Newsletter</h3>
-            <p className="text-gray-200 mb-4">
+            <p className="text-gray-800 mb-4">
               Subscribe to our newsletter for seasonal updates, special offers, and farming tips.
             </p>
             <form className="flex">
@@ -67,9 +68,9 @@ const Footer: React.FC = () => {
               />
               <button 
                 type="submit" 
-                className="bg-yellow-300 text-farm-green px-4 py-2 rounded-r-lg font-medium hover:bg-opacity-90 transition-all"
+                className="bg-yellow-300 text-green-300 px-4 py-2 rounded-r-lg font-medium hover:bg-opacity-90 transition-all"
               >
-                Sign Up
+                Send
               </button>
             </form>
           </div>
@@ -77,12 +78,11 @@ const Footer: React.FC = () => {
 
         <hr className="border-gray-600 mb-8" />
 
-        <div className="flex flex-col md:flex-row justify-between items-center text-gray-300 text-sm">
+        <div className="flex flex-col md:flex-row justify-between items-center text-gray-800 text-sm">
           <p>&copy; {new Date().getFullYear()} Ekselar Integrated Farms. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-yellow-300 transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-yellow-300 transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-yellow-300 transition-colors">Sitemap</a>
           </div>
         </div>
       </div>

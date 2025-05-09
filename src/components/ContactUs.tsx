@@ -39,8 +39,8 @@ const ContactUs: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-medium text-brown-200">Phone</h4>
-                  <p className="text-gray">(234) 8060599605</p>
-                  <p className="text-gray">(234) 8139420269</p>
+                  <p className="text-gray">08060599605</p>
+                  <p className="text-gray">08139420269</p>
                 </div>
               </div>
 
@@ -64,13 +64,17 @@ const ContactUs: React.FC = () => {
                 </div>
               </div>
             </div>
-
+          {/*---------- Google Map ----------------*/}
             <div className="mt-8">
-              <h4 className="font-medium text-brown-200 mb-4">Farm Store Location</h4>
-              <div className="w-full h-64 bg-gray-300 rounded-lg">
-                {/* Replace with an actual map component if available */}
-                <div className="w-full h-full flex items-center justify-center bg-gray-200 rounded-lg">
-                  <span className="text-gray-500">Map Placeholder</span>
+              <div className="w-full lg:w-3/4 xl:w-2/3 p-4 flex justify-center">
+                <div className="rounded-full overflow-hidden w-full max-w-[40rem] aspect-square">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.0!2d3.7119!3d7.5068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104c2e6f1c3e4a7d%3A0x1a3b3c4d5e6f7g8h!2sIdo%2C%20Oyo%20State%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1652901957916"
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  ></iframe>
                 </div>
               </div>
             </div>
@@ -78,7 +82,7 @@ const ContactUs: React.FC = () => {
 
           <div className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-brown-200 mb-6">Send us a Message</h3>
-            <form>
+            <form> 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-800 mb-2">Your Name</label>
@@ -118,7 +122,6 @@ const ContactUs: React.FC = () => {
                   className="w-full h-32" 
                 />
               </div>
-              
               <Button type="submit" className="btn-primary w-full">Send Message</Button>
             </form>
           </div>
