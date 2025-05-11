@@ -20,7 +20,7 @@ const HeroSection: React.FC = () => {
             Fresh From Our <span className="text-yellow-300">Farm</span> To Your Table
           </h1>
           <p className="text-xl mb-8 text-white opacity-90">
-            Experience the true taste of nature with our organically grown produce & livestock.
+            Experience nature's true flavour with our organic produce.
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <Button className="btn-primary bg-farm-green text-white px-8 py-3 text-lg">

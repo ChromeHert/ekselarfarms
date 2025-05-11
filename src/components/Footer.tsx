@@ -2,19 +2,18 @@ import React from 'react';
 import { 
   Facebook, 
   Instagram, 
-  Twitter, 
-  Linkedin 
+  Twitter 
 } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-green-300 text-white pt-16 pb-8" id='products'>
+    <footer className="bg-green-400 text-white pt-16 pb-8" id='products'>
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <h3 className="text-xl font-bold mb-4">Ekselar Integrated Farms</h3>
             <p className="text-gray-800 mb-4">
-              Providing fresh, organic produce and ethically raised livestock since 2015. From our farm to your table.
+              Providing organic produce and ethically raised livestock since 2015. From our farm to your table.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-yellow-300 transition-colors" aria-label="Facebook">
@@ -25,9 +24,6 @@ const Footer: React.FC = () => {
               </a>
               <a href="#" className="text-white hover:text-yellow-300 transition-colors" aria-label="Twitter">
                 <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-white hover:text-yellow-300 transition-colors" aria-label="LinkedIn">
-                <Linkedin className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -50,8 +46,8 @@ const Footer: React.FC = () => {
               <li><a href="#" className="text-gray-800 hover:text-yellow-300 transition-colors">Poultry Birds (Noiler)</a></li>
               <li><a href="#" className="text-gray-800 hover:text-yellow-300 transition-colors">Goats</a></li>
               <li><a href="#" className="text-gray-800 hover:text-yellow-300 transition-colors">Pigs</a></li>
-              <li><a href="#" className="text-gray-800 hover:text-yellow-300 transition-colors">Vegetables/Pepper</a></li>
-              <li><a href="#" className="text-gray-800 hover:text-yellow-300 transition-colors">Cassava/Maize</a></li>
+              <li><a href="#" className="text-gray-800 hover:text-yellow-300 transition-colors">Crops & Vegetables</a></li>
+              <li><a href="#" className="text-gray-800 hover:text-yellow-300 transition-colors">Snail</a></li>
             </ul>
           </div>
 
@@ -68,7 +64,7 @@ const Footer: React.FC = () => {
               />
               <button 
                 type="submit" 
-                className="bg-yellow-300 text-green-300 px-4 py-2 rounded-r-lg font-medium hover:bg-opacity-90 transition-all"
+                className="bg-yellow-300 text-green-400 px-4 py-2 rounded-r-lg font-medium hover:bg-opacity-90 transition-all"
               >
                 Send
               </button>

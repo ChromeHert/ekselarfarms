@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Button } from "@/components/ui/button";
+import Logo from "..//assets/efLogo.jpg";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -9,11 +9,16 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white py-4 sticky top-0 z-50 shadow-sm">
+    <nav className="bg-white py-1 sticky top-0 z-50 shadow-md">
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
         <div className="flex items-center">
-          <a href="/" className="flex items-center">
-            <span className="text-2xl font-bold text-farm-green">Ekselar Farms</span>
+          <a href="/" className="flex items-center space-x-2">
+            <img
+              src={Logo}
+              alt="Ekselar Farms Logo"
+              className="w-16 h-16 object-contain"
+            />
+            <span className="text-xl font-bold text-farm-green">Ekselar Farms</span>
           </a>
         </div>
 
@@ -23,7 +28,6 @@ const Navbar = () => {
           <a href="#about" className="text-farm-gray hover:text-farm-green transition-colors">About Us</a>
           <a href="#products" className="text-farm-gray hover:text-farm-green transition-colors">Our Products</a>
           <a href="#contact" className="text-farm-gray hover:text-farm-green transition-colors">Contact</a>
-          <Button className="btn-primary">Shop Now</Button>
         </div>
 
         {/* Mobile menu button */}
@@ -51,7 +55,6 @@ const Navbar = () => {
             <a href="#about" className="text-farm-gray hover:text-farm-green transition-colors" onClick={() => setMobileMenuOpen(false)}>About Us</a>
             <a href="#products" className="text-farm-gray hover:text-farm-green transition-colors" onClick={() => setMobileMenuOpen(false)}>Our Products</a>
             <a href="#contact" className="text-farm-gray hover:text-farm-green transition-colors" onClick={() => setMobileMenuOpen(false)}>Contact</a>
-            <Button className="btn-primary w-full">Shop Now</Button>
           </div>
         </div>
       )}

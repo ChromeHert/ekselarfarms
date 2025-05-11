@@ -15,10 +15,10 @@ const About: React.FC = () => {
           <div className="order-2 lg:order-1">
             <h3 className="text-3xl font-semibold text-farm-brown mb-4">From Our Family to Yours</h3>
             <p className="text-farm-gray mb-4">
-              Founded in 2015, Ekselar Integrated Farmshas been a labor of love for our family for over four decades. What started as a small family farm has grown into a thriving agricultural enterprise, all while maintaining our commitment to sustainable farming practices.
+              From our family to yours, founded in 2015, Ekselar Integrated Farms grew out of a family tradition of farming that spans over four decades. What began as a small, homegrown effort has eveolved into a thriving agricultural enterprise all while staying true to our roots in sustainable and ethical farming.
             </p>
             <p className="text-farm-gray mb-6">
-              We believe in treating the land with respect, using traditional farming methods combined with modern sustainable practices. Our animals are raised humanely with plenty of space to roam, and our crops are grown without harmful pesticides or chemicals.
+              At Ekselar, we honour the land through a blend of traditional methods and modern eco-friendly practices. Our animals are raised humanely with room to roam, and our crops are grown naturally without harmful pesticides or chemicals. Every product we offer is a reflection of our passion for quality, care and community.
             </p>
             <div className="flex flex-wrap gap-4 mb-6">
               <div className="bg-white p-4 rounded-lg shadow-sm flex items-center space-x-3 flex-1 min-w-[180px]">
@@ -44,7 +44,7 @@ const About: React.FC = () => {
                 </div>
               </div>
             </div>
-            <Button className="btn-primary">Learn More About Us</Button>
+            <Button className="bg-yellow-300 text-gray-800 hover:text-white">Learn More About Us</Button>
           </div>
 
           <div className="order-1 lg:order-2">

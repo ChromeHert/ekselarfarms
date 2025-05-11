@@ -25,41 +25,42 @@ const ContactUs: React.FC = () => {
             <div className="space-y-6">
               <div className="flex items-start">
                 <div className="mr-4 mt-1">
-                  <MapPin className="w-6 h-6 text-green-200" />
+                  <MapPin className="w-6 h-6 text-green-400" />
                 </div>
                 <div>
-                  <h4 className="font-medium text-brown-200">Farm Location</h4>
-                  <p className="text-gray">Adu Village, Lawoyin, Iddo/Akufo Road, Oyo state</p>
+                  <h4 className="font-medium">Farm Location</h4>
+                  <p className="text-gray">Adu Village by Oni Village, Lawoyin, Apete/Akufo Road, Ido, Oyo state</p>
                 </div>
               </div>
 
               <div className="flex items-start">
                 <div className="mr-4 mt-1">
-                  <Phone className="w-6 h-6 text-green-200" />
+                  <Phone className="w-6 h-6 text-green-400" />
                 </div>
                 <div>
-                  <h4 className="font-medium text-brown-200">Phone</h4>
+                  <h4 className="font-medium">Phone</h4>
                   <p className="text-gray">08060599605</p>
                   <p className="text-gray">08139420269</p>
+                  <p className="text-gray">08147921101</p>
                 </div>
               </div>
 
               <div className="flex items-start">
                 <div className="mr-4 mt-1">
-                  <Mail className="w-6 h-6 text-green-200" />
+                  <Mail className="w-6 h-6 text-green-400" />
                 </div>
                 <div>
-                  <h4 className="font-medium text-brown-200">Email</h4>
-                  <p className="text-gray">info@ekselarfarms.com</p>
+                  <h4 className="font-medium">Email</h4>
+                  <p className="text-gray"><a href="mailto:ekselarfarms@gmail.com">ekselarfarms@gmail.com</a></p>
                 </div>
               </div>
 
               <div className="flex items-start">
                 <div className="mr-4 mt-1">
-                  <Clock className="w-6 h-6 text-green-200" />
+                  <Clock className="w-6 h-6 text-green-400" />
                 </div>
                 <div>
-                  <h4 className="font-medium text-farm-brown">Farm Hours</h4>
+                  <h4 className="font-medium">Farm Hours</h4>
                   <p className="text-gray-800">Monday-Saturday: 8am - 6pm</p>
                 </div>
               </div>
@@ -122,7 +123,7 @@ const ContactUs: React.FC = () => {
                   className="w-full h-32" 
                 />
               </div>
-              <Button type="submit" className="btn-primary w-full">Send Message</Button>
+              <Button type="submit" className="bg-green-400 w-full">Send Message</Button>
             </form>
           </div>
         </div>
