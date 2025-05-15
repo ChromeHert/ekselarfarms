@@ -39,8 +39,8 @@ const ContactUs: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Phone</h4>
-                  <p className="text-gray">08060599605</p>
-                  <p className="text-gray">08139420269</p>
+                  <p className="text-gray">(+234) 8060599605</p>
+                  <p className="text-gray">(+234) 8139420269</p>
                 </div>
               </div>
 

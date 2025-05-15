@@ -1,7 +1,7 @@
-import React, {useRef, useState} from 'react';
+import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css/bundle';
+import 'swiper/swiper-bundle.css';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import Img1 from "../assets/efgoats.jpg"
 import Img2 from "../assets/efmainc.jpg"
