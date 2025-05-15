@@ -4,11 +4,11 @@ import pigImg from "../assets/efpigs.jpg";
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-20 bg-farm-cream">
+    <section id="about" className="py-20">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="section-title">Our Story</h2>
-          <p className="section-subtitle">A family farm with generations of history and tradition</p>
+          <h2 className="section-title text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-yellow-300">Our Story</h2>
+          <p className="section-subtitle text-gray-800">A family farm with generations of history and tradition</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
