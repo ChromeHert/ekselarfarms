@@ -5,7 +5,11 @@ import 'swiper/swiper-bundle.css';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import Img1 from "../assets/efgoats.jpg"
 import Img2 from "../assets/efmainc.jpg"
+import Img3 from "../assets/fishpond.jpg"
 import Img4 from "../assets/efpigs.jpg"
+import Img5 from "../assets/goats.jpg"
+import Img6 from "../assets/pepper.jpg"
+import Img7 from "../assets/hen.jpg"
 
 const HeroSection: React.FC = () => {
   return (
@@ -63,12 +67,24 @@ const HeroSection: React.FC = () => {
           </section>
         </SwiperSlide>
 
-         <SwiperSlide>
+        <SwiperSlide>
           <section id="home" className="relative h-[90vh] flex items-center">
             <div
               className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
               style={{
                 backgroundImage: `url(${Img1})`,
+                filter: "brightness(0.5)"
+              }}>
+            </div>
+          </section>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <section id="home" className="relative h-[90vh] flex items-center">
+            <div
+              className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
+              style={{
+                backgroundImage: `url(${Img3})`,
                 filter: "brightness(0.5)"
               }}>
             </div>
@@ -95,6 +111,42 @@ const HeroSection: React.FC = () => {
                   Experience nature's true flavour with our organic produce.
                 </p>
               </div>
+            </div>
+          </section>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <section id="home" className="relative h-[90vh] flex items-center">
+            <div
+              className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
+              style={{
+                backgroundImage: `url(${Img6})`,
+                filter: "brightness(0.5)"
+              }}>
+            </div>
+          </section>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <section id="home" className="relative h-[90vh] flex items-center">
+            <div
+              className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
+              style={{
+                backgroundImage: `url(${Img5})`,
+                filter: "brightness(0.5)"
+              }}>
+            </div>
+          </section>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <section id="home" className="relative h-[90vh] flex items-center">
+            <div
+              className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
+              style={{
+                backgroundImage: `url(${Img7})`,
+                filter: "brightness(0.5)"
+              }}>
             </div>
           </section>
         </SwiperSlide>
